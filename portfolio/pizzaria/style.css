@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #fff8f0;
+    color: #333;
+}
+header {
+    background: #c0392b;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+header h1 {
+    margin: 0;
+}
+.btn-pedir {
+    display: inline-block;
+    background: #27ae60;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.cardapio {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+}
+.cardapio h2 {
+    text-align: center;
+    color: #c0392b;
+}
+.item {
+    background: white;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.item img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+.item h3 {
+    margin: 0;
+    color: #e74c3c;
+}
+.item span {
+    font-weight: bold;
+    color: #27ae60;
+}
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}

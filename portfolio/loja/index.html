@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Loja Online</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>🛍️ Loja Fashion Street</h1>
+        <p>Moda e estilo na sua casa!</p>
+    </header>
+
+    <section class="produtos">
+        <div class="produto">
+            <img src="https://images.unsplash.com/photo-1523381210434-271e8be1f52b" alt="Camiseta">
+            <h3>Camiseta Estilosa</h3>
+            <p>Conforto e estilo para o dia a dia.</p>
+            <span>R$ 59,90</span>
+            <button onclick="adicionarCarrinho('Camiseta Estilosa', 59.90)">Adicionar</button>
+        </div>
+
+        <div class="produto">
+            <img src="https://images.unsplash.com/photo-1541099649105-f69ad21f3246" alt="Tênis">
+            <h3>Tênis Urbano</h3>
+            <p>Design moderno e confortável.</p>
+            <span>R$ 199,90</span>
+            <button onclick="adicionarCarrinho('Tênis Urbano', 199.90)">Adicionar</button>
+        </div>
+
+        <div class="produto">
+            <img src="https://images.unsplash.com/photo-1618354691438-25e94c158f9b" alt="Boné">
+            <h3>Boné Street</h3>
+            <p>Proteção e estilo em qualquer ocasião.</p>
+            <span>R$ 49,90</span>
+            <button onclick="adicionarCarrinho('Boné Street', 49.90)">Adicionar</button>
+        </div>
+    </section>
+
+    <section class="carrinho">
+        <h2>🛒 Carrinho</h2>
+        <ul id="lista-carrinho"></ul>
+        <p>Total: R$ <span id="total">0.00</span></p>
+        <a id="finalizar" href="#" target="_blank" class="btn-finalizar">Finalizar no WhatsApp</a>
+    </section>
+
+    <footer>
+        <p>© 2025 Loja Fashion Street</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
